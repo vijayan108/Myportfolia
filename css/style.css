@@ -4,7 +4,7 @@
    --yellow:#ff0000;
    --black:#000;
    --white:#fff;
-   --light-bg:#eee;
+   --light-bg:rgb(182, 176, 176);
    --border-bold:.5rem solid var(--black);
    --border-light:.2rem solid var(--black);
 }
@@ -98,8 +98,9 @@ section{
 }
 
 .btn:hover{
-   background-color: var(--black);
+   background-color: blueviolet;
    color:var(--white);
+   
 }
 
 .header{
@@ -234,7 +235,9 @@ section{
    font-weight: normal;
    text-transform: none;
 }
-
+a .icon1:hover{
+   color: #eee;
+}
 .about .biography .bio h3 span{
    font-weight: lighter;
 }
@@ -302,12 +305,12 @@ section{
 .about .edu-exp .row .box-container .title{
    padding:1.5rem;
    font-size: 2rem;
-   background-color:rgb(112, 143, 253);
+   background-color:#708ffd;
 }
 .about .edu-exp .row .box-container .title1{
    padding:1.5rem;
    font-size: 2rem;
-   background-color:rgb(246, 255, 127);
+   background-color:#f6ff7f;
 }
 
 .about .edu-exp .row .box-container .box{
@@ -317,6 +320,9 @@ section{
    padding:2rem;
 }
 
+.about .edu-exp .row .box-container .box:hover{
+  background-color: white;
+}
 .about .edu-exp .row .box-container .box span{
    font-size: 1.5rem;
 }
@@ -356,7 +362,7 @@ section{
    margin:1rem 0;
    font-size: 2rem;
    padding:1.5rem;
-   background-color: var(--yellow);
+   background-color:#f6ff7f;
    font-weight: normal;
 }
 
@@ -366,7 +372,7 @@ section{
 }
 
 .services .box-container .box:hover{
-   background-color: var(--black);
+   background-color: #708ffd;
 }
 
 .services .box-container .box:hover i{
