@@ -98,7 +98,7 @@ section{
 }
 
 .btn:hover{
-   background-color: blueviolet;
+   background-color: rgb(159, 63, 249);
    color:var(--white);
    
 }
