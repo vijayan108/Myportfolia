@@ -313,11 +313,12 @@ a .icon1:hover{
    background-color:#f6ff7f;
 }
 
-.about .edu-exp .row .box-container .box{
+.about .edu-exp .row .box-container .box{ /** where i need to border **/
    text-align: left;
    margin:1.5rem 0;
    background-color: var(--light-bg);
    padding:2rem;
+   border:var(--border-light);
 }
 
 .about .edu-exp .row .box-container .box:hover{
