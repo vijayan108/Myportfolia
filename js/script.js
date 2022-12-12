@@ -1,6 +1,18 @@
 let menu = document.querySelector('#menu-btn');
 let header = document.querySelector('.header');
+let age = document.querySelector('#age');
+var birthDate = new Date(2003, 1, 18, 0, 0, 0, 0);
+var currentDate = new Date();
+var birthYear = new Date().getFullYear() - birthDate.getFullYear(); 
 
+var month = currentDate.getMonth() - birthDate.getMonth();
+
+var day = currentDate.getDate() - birthDate.getDate();
+if (month < 0 || (month == 0 && day < 0)) {
+  birthYear--;
+}
+
+age.innerHTML = birthYear;
 menu.onclick = () =>{
    menu.classList.toggle('fa-times');
    header.classList.toggle('active');
